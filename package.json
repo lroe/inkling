@@ -1,0 +1,27 @@
+{
+  "name": "inkling-2-mini-explainer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio --port 4323 --no-open",
+    "preview": "remotion studio --port 4323 --no-open",
+    "still": "remotion still Inkling2Mini",
+    "typecheck": "tsc --noEmit",
+    "render:2k": "node scripts/render-2k.mjs --output-dir out/2k --work-dir out/render-work --concurrency 2 --crf 18 --scale 1.3333333333333333"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.543",
+    "@remotion/fonts": "4.0.543",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.543",
+    "roughjs": "4.6.6"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "4.0.543",
+    "@remotion/renderer": "4.0.543",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "typescript": "5.6.3"
+  }
+}

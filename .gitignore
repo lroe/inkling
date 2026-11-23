@@ -1,0 +1,10 @@
+node_modules/
+out/
+work/
+/audio.wav
+/whisper_raw.json
+/transcript_timed.txt
+skill.md
+*.log
+.DS_Store
+__pycache__/
